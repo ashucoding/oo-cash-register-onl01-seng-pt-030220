@@ -19,7 +19,7 @@ class CashRegister
     else
       @items << item
     end
-    @last_amount = 
+    @last_amount = price * quantity
   end
 
   def apply_discount
